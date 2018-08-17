@@ -11,7 +11,7 @@ export type FooterProps = {
 export default ({ owner }: FooterProps) => (
     <Container>
         <Section>
-            {`© 2018 `}
+            {`© 2018? `}
             <Link to='/about/'>{owner}</Link>
         </Section>
         <Section>
